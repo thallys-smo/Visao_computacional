@@ -21,8 +21,7 @@ em que th_value receberá o valor do threshold encontrado e img a imagem binariz
 5. Implemente um código (utilizando a função cv.threshold com método de Otsu) que realize a operação de binarização da imagem com ajuste de contraste do item 2. Apresente a imagem binarizada resultante.
 
 6. Comente os resultados, comparando as duas formas de encontrar o limiar (threshold).
-
-'''
+<code>
 def alargCont(img):
   '''
   Entrada:
@@ -44,4 +43,7 @@ def alargCont(img):
 Seu código começa AQUI
 
 Seu código termina AQUI
+</code>.
+
+
 '''
