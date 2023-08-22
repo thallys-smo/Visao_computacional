@@ -1,2 +1,2 @@
-# Visao_computacional
+# Visao Computacional
 Repositório destinado aos estudos de Visão Computacional
