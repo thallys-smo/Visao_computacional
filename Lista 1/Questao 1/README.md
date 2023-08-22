@@ -1,8 +1,15 @@
-# Questão 1
-    1.Esta lista consiste em 5 exercícios.
-    2.Deve-se colocar comentários nos códigos desenvolvidos.
-    3.As perguntas devem ser respondidas também como comentários no arquivo.
-    4.Colocar seu nome e número USP abaixo.
-    5.Quaisquer problemas na execução das listas, entrar em contato com os monitores.
-    6.Depois de terminados os exercícios, deve ser gerado um arquivo extensão .ipynb para ser enviado ao professor pelo E-DISCIPLINAS da disciplina até a data máxima de entrega.
-    7.Caso não seja enviado - ou identifique-se cópia - o aluno ficará sem nota.
+# Questão 1: Enunciado
+
+1) Resolução espacial (Nota: 2.0/10.0)
+Carregue o arquivo de imagem flower.png e mostre seu tamanho.
+Agora, vamos utilizar a função cv.resize para mudar a resolução espacial da imagem lida. Pesquise sobre essa função e utilize-a para reduzir o tamanho da imagem para:
+280x280
+200x200
+125x125
+100x100
+50x50
+Mostre todas as imagens usando janelas do mesmo tamanho. Lembre-se que o tamanho real da imagem foi definido no item anterior com cv.resize, mas você pode escolher qual o tamanho mostrar na tela, em polegadas (a imagem será ajustada para se adequar ao tamanho escolhido). Para isto, faremos uso do figsize juntamente com subplot.
+
+Comente os resultados.
+
+Dica: Use o argumento figsize em plt.figure(figsize=(largura,altura)), sendo largura e altura dadas em polegadas. Um bom número para se trabalhar é de 5 polegadas por imagem, assim em um plot de 1 linha por 5 colunas, uma sugestão seria utilizar plt.figure(figsize=(25,5)).
