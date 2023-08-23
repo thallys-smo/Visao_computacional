@@ -1,9 +1,10 @@
-# Questão 1
-    1.Esta lista consiste em 5 exercícios.
-    2.Deve-se colocar comentários nos códigos desenvolvidos.
-    3.As perguntas devem ser respondidas também como comentários no arquivo.
-    4.Colocar seu nome e número USP abaixo.
-    5.Quaisquer problemas na execução das listas, entrar em contato com os monitores.
-    6.Depois de terminados os exercícios, deve ser gerado um arquivo extensão .ipynb para ser enviado ao professor pelo E-DISCIPLINAS da disciplina até a data máxima de entrega.
-    7.Caso não seja enviado - ou identifique-se cópia - o aluno ficará sem nota.
+# Questão 5: Enunciado
+
+5) Filtro passa-alta e Filtro de aguçamento (Nota: 2.0/10.0)
+
+Exercício:
+
+1. Aplique o kernel de um filtro espacial passa-alta na imagem circuit.tif a fim de adquirir as altas frequências da imagem. Apresente a imagem resultante e, para melhor visualização, seu negativo. Você pode criar o filtro como orientado no exercício anterior, mas agora para passa-alta.
+
+2. Modifique esse kernel a fim de torná-lo um filtro de aguçamento e aplique-o na imagem. Apresente a imagem resultante e comente os resultados.
 
