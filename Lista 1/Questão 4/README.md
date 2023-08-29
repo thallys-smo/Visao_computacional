@@ -6,3 +6,4 @@
     5.Quaisquer problemas na execução das listas, entrar em contato com os monitores.
     6.Depois de terminados os exercícios, deve ser gerado um arquivo extensão .ipynb para ser enviado ao professor pelo E-DISCIPLINAS da disciplina até a data máxima de entrega.
     7.Caso não seja enviado - ou identifique-se cópia - o aluno ficará sem nota.
+
