@@ -9,3 +9,15 @@ Estes são alguns dos formatos existentes para imagens coloridas:
 - O formato GIF (Graphic Interchange Format). É freqüentemente usado para fazer pequenas animações e filmes curtos de baixa resolução para a Internet. Ideal para gráficos, logos e desenhos. Nesse padrão de compressão as cores são representadas por um conjunto de até 256 cores.
 
 *** Mais detalhes no capítulo 8 - Compressão de Imagem e Marca d'Água do livro: Gonzalez and Woods, Digital Image Processing 4th.
+
+**Exercício**
+
+1. Faça a leitura da imagem borboleta.bmp.
+2. Faça a leitura da imagem no formato .gif(borboleta.gif),
+3. Utilizando a imagem do item 1, salve-a no formato .jpg. Em seguida, leia esta imagem novamente em uma outra variável.
+4. Agora, compare o tamanho dos arquivos das imagens, imprimindo a quantidade de bytes de cada um.
+5. Apresente as três imagens lado a lado em um tamanho que seja possível observar os detalhes nos valores dos pixels. Comente sobre as diferenças de memória utilizada e características visuais.
+
+**Dicas:**
+
+Você pode utilizar a função cv.imwrite para salvar as imagens. Utilize os.path.getsize para calcular o tamanho do arquivo da imagem. Para carregar imagens .gif é necessário utilizar outra função do OpenCV em vez de imread. Para tanto, utilize a função cv.VideoCapture, conforme exemplo a seguir.
