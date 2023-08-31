@@ -21,3 +21,6 @@ Estes são alguns dos formatos existentes para imagens coloridas:
 **Dicas:**
 
 Você pode utilizar a função cv.imwrite para salvar as imagens. Utilize os.path.getsize para calcular o tamanho do arquivo da imagem. Para carregar imagens .gif é necessário utilizar outra função do OpenCV em vez de imread. Para tanto, utilize a função cv.VideoCapture, conforme exemplo a seguir.
+
+captura = cv.VideoCapture("arquivo.gif")
+ret, img = captura.read()
