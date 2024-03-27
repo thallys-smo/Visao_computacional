@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # Initialization of WebCam 
-webcam = cv.VideoCapture(2)
+webcam = cv.VideoCapture(0)
 
 # Initialization of Cascade Classifier
 face_detect = cv.CascadeClassifier("Reconhecimento de Faces/Haar-cascade/haarcascade_frontalface_default.xml")
@@ -24,10 +24,12 @@ while True:
         serial, confianca = recognizer.predict(faces_gray[y:y+b,x:x+a])
         print(confianca)
         if confianca > 50:
+            cv.rectangle(frame, (x,y), (x+275,y-60), color = (50,50,225), thickness=cv.FILLED, lineType = 8, shift = 0)
             # Writing the person name over the box image
-            cv.putText(frame, nomes_pessoas[serial],(x,y-40),cv.FONT_HERSHEY_SIMPLEX,0.8,(50,50,225),2)
+            cv.putText(frame, nomes_pessoas[serial] + f': {confianca:.2f}',(x+40,y-20),cv.FONT_HERSHEY_SIMPLEX,0.8,(255,255,225),2)
             # Crating the retangle with the dimensions of (x,y) and (x+a,y+b)
             cv.rectangle(frame, (x,y), (x+a,y+b),(50,50,225),1)
+            
         else:
             # Writing the person name over the box imagce
             cv.putText(frame, "Nao reconhecido", (x,y-40), cv.FONT_HERSHEY_SIMPLEX, 1,(50,50,225),2)
